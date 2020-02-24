@@ -202,3 +202,84 @@ header {
 .middle-content .boxes .box.b10 { 
     background: dodgerblue;
 }
+
+.container about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content.about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container.about-page {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.boxes.about-page { 
+    display: flex;
+    flex-direction: row;
+    /* border: black solid 1px; */
+    flex: 2;
+}
+
+.aboutbox { 
+    /* border-bottom: dashed black 1px; */
+    width: 50%;
+    /* padding: 1%; */
+    margin-top: 20px;
+    contain: content;
+}
+
+.aboutbox.b1 { 
+    /* display: inline-block; */
+    border-bottom: dashed black 1px;
+    width: 45%;
+    contain: content;
+}
+.aboutbox.b2 { 
+    border-bottom: dashed black 1px;
+    width: 45%;
+}
+.aboutbox.b3 { 
+    border-bottom: dashed black 1px;
+    width: 45%;
+}
+.aboutbox.b4 { 
+    border-bottom: dashed black 1px;
+    width: 45%;
+}
+
+.middle-content.about-page h2 {
+    padding: 0;
+}
+.middle-content.about-page {
+    border: none;
+}
+
+.ptextbot{ 
+    margin-bottom: 40px ;
+}
+
+/* created the box around the Learn More text */
+.learnmore { 
+    border: solid 2px black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    display: flex;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+}
+/* creating space between h2 and text */
+.aboutbox h2 { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
