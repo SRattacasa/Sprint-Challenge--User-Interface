@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-They are used to label or "tag" areas of the HTML itself to be referenced or used by other tools, like the styling tools.
+They are used to label or "tag" areas, elements / components of the HTML itself to be referenced or used by other tools, like the styling tools.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
@@ -46,7 +46,7 @@ content / padding / border / margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-The cross-axis on the current line.
+The cross-axis of the current line.
 
 5. Explain why git is valuable to a team of developers.
 
