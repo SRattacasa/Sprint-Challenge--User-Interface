@@ -266,6 +266,7 @@ header {
     border: none;
 }
 
+/* spacing */
 .ptextbot{ 
     margin-bottom: 40px ;
 }
@@ -288,7 +289,6 @@ header {
 }
 
 .text-container.about-page { 
-    /* border: solid orange 4px; */
     margin-left: 10px;
     width: 80%;
 }
