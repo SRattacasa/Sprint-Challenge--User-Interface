@@ -167,7 +167,7 @@ header {
 }
 
 .bannerlogo { 
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
 }
 
 /* box targeting for background color by being more specific  */
@@ -212,7 +212,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     border-bottom: 1px dashed black;
 }
 
@@ -237,8 +237,9 @@ header {
     contain: content;
 }
 
+/* some overlapping settings to override for specific boxes */
+
 .aboutbox.b1 { 
-    /* display: inline-block; */
     border-bottom: dashed black 1px;
     width: 45%;
     contain: content;
@@ -250,10 +251,12 @@ header {
 .aboutbox.b3 { 
     border-bottom: dashed black 1px;
     width: 45%;
+    margin-top: 50px;
 }
 .aboutbox.b4 { 
     border-bottom: dashed black 1px;
     width: 45%;
+    margin-top: 50px;
 }
 
 .middle-content.about-page h2 {
@@ -282,4 +285,17 @@ header {
 .aboutbox h2 { 
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.text-container.about-page { 
+    /* border: solid orange 4px; */
+    margin-left: 10px;
+    width: 80%;
+}
+
+.botworktogether { 
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 1%;
+    margin-left: 10px;
 }
