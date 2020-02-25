@@ -144,3 +144,158 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Beginning of my added CSS  */
+header { 
+    margin: 40px auto 0px;
+    /* border: solid black 1px; */
+    max-width: 800px
+}
+
+.topnav { 
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: baseline;
+    align-content: space-between;
+    
+}
+/* changed the blue to black and removed the underline */
+.topnav a { 
+    color: black;
+    text-decoration: none;
+}
+
+.bannerlogo { 
+    margin: 40px 0 20px 0;
+}
+
+/* box targeting for background color by being more specific  */
+
+.middle-content .boxes .box.b1 { 
+    background: teal;
+}
+.middle-content .boxes .box.b2 { 
+    background: gold;
+}
+.middle-content .boxes .box.b3 { 
+    background: cadetblue;
+}
+.middle-content .boxes .box.b4 { 
+    background: coral;
+}
+.middle-content .boxes .box.b5 { 
+    background: crimson;
+}
+.middle-content .boxes .box.b6 { 
+    background: forestgreen;
+}
+.middle-content .boxes .box.b7 { 
+    background: darkorchid;
+}
+.middle-content .boxes .box.b8 { 
+    background: hotpink;
+}
+.middle-content .boxes .box.b9 { 
+    background: indigo;
+}
+.middle-content .boxes .box.b10 { 
+    background: dodgerblue;
+}
+
+.container about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content.about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* margin-bottom: 20px; */
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container.about-page {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.boxes.about-page { 
+    display: flex;
+    flex-direction: row;
+    /* border: black solid 1px; */
+    flex: 2;
+}
+
+.aboutbox { 
+    /* border-bottom: dashed black 1px; */
+    width: 50%;
+    /* padding: 1%; */
+    margin-top: 20px;
+    contain: content;
+}
+
+/* some overlapping settings to override for specific boxes */
+
+.aboutbox.b1 { 
+    border-bottom: dashed black 1px;
+    width: 45%;
+    contain: content;
+}
+.aboutbox.b2 { 
+    border-bottom: dashed black 1px;
+    width: 45%;
+}
+.aboutbox.b3 { 
+    border-bottom: dashed black 1px;
+    width: 45%;
+    margin-top: 50px;
+}
+.aboutbox.b4 { 
+    border-bottom: dashed black 1px;
+    width: 45%;
+    margin-top: 50px;
+}
+
+.middle-content.about-page h2 {
+    padding: 0;
+}
+.middle-content.about-page {
+    border: none;
+}
+
+/* spacing */
+.ptextbot{ 
+    margin-bottom: 40px ;
+}
+
+/* created the box around the Learn More text */
+.learnmore { 
+    border: solid 2px black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    display: flex;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+}
+/* creating space between h2 and text */
+.aboutbox h2 { 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text-container.about-page { 
+    margin-left: 10px;
+    width: 80%;
+}
+
+.botworktogether { 
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 1%;
+    margin-left: 10px;
+}
